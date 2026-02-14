@@ -1,0 +1,37 @@
+E-commerce Funnel & Conversion Analysis
+
+📌 Project Overview
+This project focuses on analyzing an e-commerce user journey to identify bottlenecks in the conversion funnel. By processing session-level data, the analysis provides insights into user behavior from the initial "Browse" event to the final "Purchase." The goal is to optimize the customer experience and improve overall conversion rates through data-driven insights.
+
+🛠️ Task Description
+The primary objective was to perform a comprehensive funnel analysis on a dataset containing 21,000+ user sessions. The task involved:
+Data Preprocessing: Cleaning and structuring raw session data, including timestamp conversion and handling categorical variables.
+Funnel Construction: Tracking users through sequential stages: Browse → Add to Cart → Checkout → Purchase.
+Conversion Metrics: Calculating drop-off rates and conversion percentages at each stage of the funnel.
+Segmentation Analysis: Evaluating funnel performance across different dimensions such as Device Type, Region, and Marketing Channel (e.g., Organic, Social Media, Google Ads).
+Trend & Pattern Discovery: Identifying peak activity hours and daily session trends to understand temporal user behavior.
+Automated Reporting: Generating a multi-sheet Excel report (funnel_analysis_report.xlsx) for corporate stakeholders and saving high-resolution visualizations of conversion rates.
+
+DATASET USED: 
+"C:\Users\yashs\Downloads\FI_TASK3YM\funnel_analysis_data.csv"
+
+📊 Dataset Key Features
+The analysis utilizes the following attributes:
+User & Session IDs: Unique identifiers for tracking individual journeys.
+Event Types: User actions (Browse, Add to Cart, Checkout, Purchase).
+Timestamp: Precise time of action for trend analysis.
+Attributes: Device, Region, and Marketing Channel.
+Outcome Metrics: Revenue generated and Bounce Flag status.
+
+🚀 Technologies Used
+Language: Python
+Data Manipulation: Pandas, NumPy
+Visualization: Matplotlib, Seaborn, Plotly (Express & Graph Objects)
+Exporting: Openpyxl (for Excel reporting)
+Business Intelligence Dashboard: Power BI
+
+📈 Key Visualizations Included
+Funnel Conversion Bar Chart: Visual representation of stage-by-stage drop-offs.
+Daily Metric Trends: Time-series analysis of session volumes.
+Hourly Activity Patterns: Heatmaps/Line plots showing when users are most active.
+
